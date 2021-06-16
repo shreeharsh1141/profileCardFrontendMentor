@@ -1,0 +1,59 @@
+/* resetting css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position:-20% 120%, 120% -80%;
+}
+
+/* attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* container formatting */
+.container{
+    width: 25rem;
+    padding: 0;
+    margin-top: 10%;
+}
+
+#victorCimage{
+    width: 8rem;
+    position: absolute;
+    top: 20%;
+    left:8rem;
+    border-radius: 50%;
+    border: 0.5rem solid #fff;
+}
+/* profile image of Victor Crest is set to 8rem width and have 0.5rem border which equals to 9rem on x axis.
+Thus giving absolute position left of 8rem sums up to 17rem, which leaves 8rem to the right and hence
+image is centered. */
+
+/* container text editing */
+.card{
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10%;
+}
+.card-title{
+    padding-top: 5rem;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+.row{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+span{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
